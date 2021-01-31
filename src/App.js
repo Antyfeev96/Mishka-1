@@ -1,12 +1,16 @@
+import react from "react";
 import "./App.css";
-import TaskList from "./TaskList";
+import Footer from "./Footer";
 import Header from "./Header";
+import TaskList from "./TaskList";
+
 
 const App = () => {
   return (
     <div>
       <Header />
       <TaskList />
+      <Footer />
     </div>
   );
 };

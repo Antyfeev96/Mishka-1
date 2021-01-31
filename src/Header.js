@@ -1,9 +1,9 @@
 const Header = () => {
   return (
     <div>
-      <a href="#">Home</a>
-      <a href="#">Friends</a>
-      <a href="#">Messages</a>
+      <a href="#">Home</a> -
+      <a href="#">Friends</a> - 
+      <a href="#">Messages</a> - 
     </div>
   );
 };

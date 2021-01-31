@@ -1,3 +1,8 @@
 ul li {
   list-style-type: armenian;
 }
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
