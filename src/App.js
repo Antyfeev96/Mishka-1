@@ -1,16 +1,15 @@
 import react from "react";
 import "./App.css";
-import Footer from "./Footer";
-import Header from "./Header";
-import TaskList from "./TaskList";
-
+import Header from "./components/Header";
+import Profile from "./components/Profile";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div>
+    <div className="wrapper">
       <Header />
-      <TaskList />
-      <Footer />
+      <Navbar />
+      <Profile />
     </div>
   );
 };
