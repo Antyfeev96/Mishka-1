@@ -1,0 +1,8 @@
+.main {
+  grid-area: main;
+  background-color: green;
+}
+
+.item {
+  color:coral;
+}
