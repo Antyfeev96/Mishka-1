@@ -4,10 +4,10 @@ const Header = () => {
     return (
         <header className={h.header}>
         <img
-          src="https://www.designevo.com/res/templates/thumb_small/brown-badge-and-lion.png"
+          src="https://o.remove.bg/downloads/26a1c213-7f8d-4160-9baa-cde5254e8c4c/coffee-removebg-preview.png"
           alt="logo"
         ></img>
-        header
+        <div className={h.title}>ReactJS Study Project</div>
       </header>
     )
 }

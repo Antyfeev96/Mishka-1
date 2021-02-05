@@ -3,8 +3,9 @@ import s from './Navbar.module.css'
 const Navbar = () => {
     return (
       <nav className={s.nav}>
-      Navigation
-      <div className={`${s.item} ${s.active}`}>
+      <div className={s.title}>Navigation</div>
+      <div className={s.container}>
+      <div className={`${s.item}`}>
         <a>My Page</a>
       </div>
       <div className={s.item}>
@@ -18,6 +19,7 @@ const Navbar = () => {
       </div>
       <div className={s.item}>
         <a>Settings</a>
+      </div>
       </div>
     </nav>
     )
