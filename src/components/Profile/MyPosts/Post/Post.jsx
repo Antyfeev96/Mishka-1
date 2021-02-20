@@ -1,15 +1,15 @@
 import p from "../Post/Post.module.css";
 
-const Post = () => {
+const Post = (props) => {
   return (
     <div className={p.item}>
       <img
         src="https://chslovo.com/wp-content/uploads/2019/09/3-1.jpg"
         alt="avatar"
       />
-      Post
+      {props.message}
       <div>
-        <span>Like</span>
+        <span>Likes: {props.likes}</span>
       </div>
     </div>
   );
