@@ -5,17 +5,20 @@ import Profile from "./components/Profile/Profile";
 import Navbar from "./components/Navbar/Navbar";
 import React from "react";
 import Dialogs from "./components/Dialogs/Dialogs";
+import {BrowserRouter, Route} from "react-router-dom";
 
-const App = () => {
+const App = (props) => {
     return (
+        <BrowserRouter>
         <div className="wrapper">
             <Header/>
             <Navbar/>
             <div className="wrapper-content">
-                <Profile/>
+                <Route path='/dialogs' component={Dialogs} />
+                <Route path='/profile' component={Profile} />
             </div>
-
         </div>
+        </BrowserRouter>
     );
 };
 
