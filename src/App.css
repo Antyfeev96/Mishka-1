@@ -1,17 +1,27 @@
 @font-face {
-  font-family: 'tf2bold';
-  src: url('./fonts/tf2build.ttf') format('truetype');
-  font-style: normal; 
-  font-weight: normal;
+    font-family: 'tf2bold';
+    src: url('./fonts/tf2build.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
 }
 
 .wrapper {
-  width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-areas: 
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
     'header header'
     'nav main';
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+}
+
+.wrapper-content {
+    grid-area: main;
+    background-color: wheat;
+    margin-top: 15px;
+}
+
+.item {
+    color: coral;
 }
