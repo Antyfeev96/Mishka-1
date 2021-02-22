@@ -1,0 +1,43 @@
+.nav {
+  grid-area: nav;
+  background-color: whitesmoke;
+  margin-top: 15px;
+
+  .title {
+    margin-top: 20px;
+    font-family: 'tf2bold';
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .container {
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: 'tf2bold';
+    font-size: 30px;
+    color: royalblue;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  .item {
+    color: white;
+    margin: 0 auto;
+  }
+
+  .item:nth-of-type(n + 1) {
+    margin-top: 5px;
+  }
+
+  .item:nth-of-type(5) {
+    margin-top: 50px;
+  }
+
+}

@@ -3,44 +3,35 @@
   background-color: whitesmoke;
   margin-top: 15px;
 }
-
-.title {
+.nav .title {
   margin-top: 20px;
-  font-family: 'tf2bold';
+  font-family: "tf2bold";
   font-size: 30px;
   text-align: center;
 }
-
-.container {
+.nav .container {
   margin-top: 15px;
   margin-left: 50px;
   margin-right: 50px;
 }
-
-a {
+.nav a {
   text-decoration: none;
-  font-family: 'tf2bold';
+  font-family: "tf2bold";
   font-size: 30px;
   color: royalblue;
 }
-
-a:visited {
+.nav a:visited {
   text-decoration: none;
 }
-
-.item {
+.nav .item {
   color: white;
   margin: 0 auto;
 }
-
-.item:nth-of-type(n + 1) {
+.nav .item:nth-of-type(n + 1) {
   margin-top: 5px;
 }
-
-.item:nth-of-type(5) {
+.nav .item:nth-of-type(5) {
   margin-top: 50px;
 }
 
-.active {
-  color: brown
-}
+/*# sourceMappingURL=Navbar.module.css.map */

@@ -1,23 +1,23 @@
-import p from "./Profile.module.css";
+import p from "./Profile.module.scss";
 import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
     return (
-        <main>
-            <div>
+        <div>
+            <div className={p.background}>
                 <img
                     src="https://images.ctfassets.net/hrltx12pl8hq/6bi6wKIM5DDM5U1PtGVFcP/1c7fce6de33bb6575548a646ff9b03aa/nature-photography-pictures.jpg?fit=fill&w=800&h=300"
-                    alt="beach"
+                    alt="background"
                 ></img>
             </div>
-            <div>
+            <div className={p.user}>
                 <img
-                    src="https://cdn.the-scientist.com/assets/articleNo/67431/aImg/37291/lemur-wrist-glands-scent-pheromones-primates-testosterone-mating-breeding-sexual-communication-t.png"
-                    alt="animal"
+                    src='https://buzza.ru/uploads/memes/7bc0e1f0d4888e62b4ee611afd749503/QmLIFa.jpg'
+                    alt="avatar"
                 ></img>
             </div>
             <MyPosts/>
-        </main>
+        </div>
     );
 };
 
