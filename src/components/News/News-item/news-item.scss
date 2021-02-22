@@ -1,0 +1,22 @@
+.news-item {
+
+  display: flex;
+  margin-bottom: 30px;
+  background-color: #e5b781;
+
+  img {
+    width: 200px;
+
+  }
+
+  &__info {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+
+  &__content {
+    margin-top: 15px;
+    width: 300px;
+    font-family: 'tf2bold';
+  }
+}

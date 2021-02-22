@@ -1,0 +1,19 @@
+.news-item {
+  display: flex;
+  margin-bottom: 30px;
+  background-color: #e5b781;
+}
+.news-item img {
+  width: 200px;
+}
+.news-item__info {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.news-item__content {
+  margin-top: 15px;
+  width: 300px;
+  font-family: "tf2bold";
+}
+
+/*# sourceMappingURL=news-item.css.map */
