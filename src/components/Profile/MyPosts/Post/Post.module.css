@@ -1,9 +1,16 @@
 .item {
-  color: coral;
+    margin-top: 25px;
+    color: coral;
+    display: flex;
 }
 
 .item img {
-  width: 60px;
-  height: 60px;
-  border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.content {
+    padding-top: 7px;
+    padding-left: 25px;
 }

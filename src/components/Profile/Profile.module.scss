@@ -1,14 +1,37 @@
 .background {
-    margin: 25px;
 
-    img {
-        overflow: auto;
-    }
+  display: flex;
+  justify-content: center;
+
+  img {
+    margin-top: 15px;
+    overflow: auto;
+  }
 }
 
 .user {
+  margin-top: 50px;
+  margin-left: 65px;
+  display: flex;
+  background-color: #e5b781;
 
-    img {
-        width: 150px;
-    }
+  img {
+    width: 150px;
+  }
+
+  .box {
+    margin-left: 25px;
+  }
+
+  .name {
+    margin-top: 10px;
+  }
+
+  .birthday {
+    margin-top: 10px;
+  }
+
+  .info {
+    margin-top: 10px;
+  }
 }

@@ -11,15 +11,15 @@ import News from "./components/News/News";
 const App = (props) => {
     return (
         <BrowserRouter>
-        <div className="wrapper">
-            <Header/>
-            <Navbar/>
-            <div className="wrapper-content">
-                <Route path='/dialogs' component={Dialogs} />
-                <Route path='/profile' component={Profile} />
-                <Route path='/news' component={News} />
+            <div className="wrapper">
+                <Header/>
+                <Navbar/>
+                <div className="wrapper-content">
+                    <Route path='/dialogs' component={Dialogs}/>
+                    <Route path='/profile' component={Profile}/>
+                    <Route path='/news' component={News}/>
+                </div>
             </div>
-        </div>
         </BrowserRouter>
     );
 };
